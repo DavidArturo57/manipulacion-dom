@@ -10,7 +10,9 @@ Requisitos:
 - Refactorizar el código para que funcione con múltiples usuarios
 - El código debe seguir y aplicar buenas prácticas vistas durante la sesiones.
 
+```
 const users = [
+
     {
 
         id: 1,
@@ -53,4 +55,6 @@ const users = [
         }
 
     }
+  
 ]
+```
