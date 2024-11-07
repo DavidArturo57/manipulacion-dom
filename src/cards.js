@@ -96,7 +96,7 @@ const users = [
                 "Cafe Tacuba", 
                 "Matute", 
                 'Jeans', 
-                "Timbiriche"
+                "Timbirice"
             ]
         }
     }
