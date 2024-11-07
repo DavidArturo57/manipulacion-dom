@@ -23,27 +23,16 @@ const users = [
             ]
         }
     },
-
     {
         id: 2,
-
         user_name: 'User LastName',
-
         description: 'Lorem lorem lorem',
-
         age: '23',
-
         fav_music: {
-
             bands: [
-
                'Band 1', 'Band 2', 'Band 3', 'Band 4'
-
             ]
-
         }
-
     }
-  
 ]
 ```
