@@ -1,0 +1,13 @@
+/* Estilos generales para el contenedor de tarjetas */
+#container {
+    display: grid;             /* Usamos Grid para organizar las tarjetas */
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));  /* Crear columnas flexibles con un tamaño mínimo de 220px */
+    gap: 20px;                 /* Espaciado entre las tarjetas */
+    justify-items: center;     /* Centra las tarjetas dentro de las celdas */
+}
+
+/* Estilo para cada tarjeta */
+.card {
+    width: 100%;                /* La tarjeta ocupa todo el ancho disponible en su celda */
+    padding: 10px;
+}
