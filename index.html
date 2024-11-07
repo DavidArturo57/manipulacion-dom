@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="./style.css" rel="stylesheet"/>
+    <!--*async defer* carge todo los archivos html , css primero y al final archivo js-->
+    <!--<script src="./src/main.js" async defer></script> -->
+</head>
+<body>
+    <h1 id ="title"></h1>
+    <!-- Campo de entrada de texto donde los usuarios pueden escribir un título o texto -->
+    <input type="text" id="title-input" name="title"/>
+
+    <div>
+        <p class="text"></p>
+        <p class="text"></p>
+        <p class="text"></p>
+        <p class="text"></p>
+        <p class="text"></p>
+    </div>
+    <main id="main-content">
+        <button id="btn-hide">Show/Hide</button>
+        <div id="container" class="container">
+            <div class="card" id="card">
+                <div class="img-container" id="img-container"></div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/main.js"></script>
+    <script src="./src/cards.js"></script>
+</body>
+</html>
